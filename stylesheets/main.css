@@ -61,4 +61,4 @@ a:hover.dark_blue { color: #0069D6; }
     overflow: hidden;
     width: 100%;
 }
-#content p { line-height: 110%; }
+#content p { line-height: 110%; margin-bottom: 5px; }
