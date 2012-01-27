@@ -22,7 +22,15 @@ a:hover.dark_blue { color: #0069D6; }
 .thumbnail { padding: 5px; border: 1px solid #ccc; }
 
 #header { margin-top: 50px; margin-bottom: 50px; }
-#banner { margin-top: 100px; margin-bottom: 100px; }
+#banner { margin-top: 100px; margin-bottom: 70px; }
 #social h2 { margin-bottom: 10px; }
 #content p { line-height: 110%; margin-bottom: 5px; padding-right: 20px; }
 #content h2 { margin-bottom: 10px; }
+
+#footer {
+	background: #fff;
+	text-align: center;
+	margin: 15px auto;
+	margin-top: 45px;
+}
+#footer p { color: #00438a; }
