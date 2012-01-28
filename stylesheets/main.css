@@ -22,6 +22,7 @@ a:hover.dark_blue { color: #0069D6; }
 .dark_blue { color: #00438a; }
 .thumbnail { width: 210px; }
 .blurb { margin-bottom: 20px; }
+.italic { font-style: italic; }
 
 #header { margin-top: 50px; margin-bottom: 50px; }
 #banner { margin-top: 100px; margin-bottom: 70px; }
