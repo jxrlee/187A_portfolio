@@ -15,8 +15,18 @@ p { font-size: 1em; color: #999; }
 a, a:link, a:visited, a:active, a:hover { text-decoration: none; }
 a.light_gray { color: #bbb; }
 !a:hover.light_gray { color: #808080; }
-a:hover.light_gray { color: #0069D6; }
-a:hover.dark_blue { color: #0069D6; }
+a:hover.light_gray { 
+    color: #0069D6; 
+    -webkit-transition: color .5s linear;
+    -moz-transition: color .5s linear;
+    transition: color .5s linear;
+}
+a:hover.dark_blue { 
+    color: #0069D6; 
+    -webkit-transition: color .5s linear;
+    -moz-transition: color .5s linear;
+    transition: color .5s linear;
+}
 .light_gray { color: #bbb; }
 .dark_gray { color: #808080; }
 .dark_blue { color: #00438a; }
